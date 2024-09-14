@@ -1,0 +1,29 @@
+$ cd C:/Users/mmiel/OneDrive/デスクトップ/samuraiterakoya/git_challenge
+
+$ git init
+Initialized empty Git repository in C:/Users/mmiel/OneDrive/デスクトップ/samuraiterakoya/git_challenge/.git/
+
+$ echo "Hello, world!" >> hello_world.txt
+
+$ git add .
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+$ git commit -m "hello_world.txtを追加"
+[main b4fbffd] hello_world.txtを追加
+ 1 file changed, 1 deletion(-)
+
+$ echo "こんにちは、世界！" >> hello_world.txt
+
+$ git add .
+warning: in the working copy of 'hello_world.txt', LF will be replaced by CRLF the next time Git touches it
+
+$ git commit -m "日本語訳を追記"
+[main 0728926] 日本語訳を追記
+ 1 file changed, 1 insertion(+)	
+
+$ git log --oneline
+0728926 (HEAD -> main) 日本語訳を追記
+b4fbffd hello_world.txtを追加
+
+
+
