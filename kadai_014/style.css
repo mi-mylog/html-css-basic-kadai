@@ -1,0 +1,36 @@
+html{
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    font-family: "Arial", "Meiryo", sans-serif;
+}
+
+h1{
+    /* Google Fontsを指定 */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    /* フォントサイズをルート要素の2倍にする */
+    font-size: 2em;
+    /* 文字間を1.2倍にする */
+    letter-spacing: 1.2em;
+    /* 影をつける */
+    text-shadow: 1px 1px 2px gray;
+    /* 下線を引く */
+    border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+.decoration1{
+    color: skyblue; 
+}
+
+.decoration2{
+    color: rgb(255, 192, 203) ;
+}
+
+#basic p{
+    font-weight: bold;
+}
