@@ -14,7 +14,7 @@ h1{
     font-weight: <weight>;
     font-style: normal;
     /* フォントサイズをルート要素の2倍にする */
-    font-size: 2em;
+    font-size: 2rem;
     /* 文字間を1.2倍にする */
     letter-spacing: 1.2em;
     /* 影をつける */
